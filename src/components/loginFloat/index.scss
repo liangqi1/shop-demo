@@ -1,0 +1,42 @@
+.login-float-container {
+    position: fixed;
+    bottom: 75px;
+    left: 12px;
+    right: 12px;
+    width: calc(100% - 24px);
+    transition: width .3s;
+    -webkit-transition: width .3s;
+    height: 44px;
+    padding-right: 8px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    .left {
+        padding-left: 16px;
+        line-height: 44px;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .right {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        a {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .btn {
+            // vertical-align: super;
+            height: 26px;
+            min-height: 26px;
+            line-height: 26px;
+            font-size: 12px;
+            text-align: center;
+            border-radius: 20px;
+            border: none;
+        }
+    }
+}

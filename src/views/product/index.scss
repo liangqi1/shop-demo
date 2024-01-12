@@ -1,0 +1,55 @@
+.product-container {
+    background-color: #efeff4;
+    overflow-x: hidden;
+    .product-img-container {
+        .product-img {
+            width: 100%;
+        }
+    }
+
+    .prodcut-wapper {
+        margin: 10px 2.67% 15px 2.67%;
+        padding: 10px 2.8%;
+        border-radius: 10px;
+        background: #fff;
+    }
+
+    .info {
+        color: #333;
+        background: #fff;
+        overflow: hidden;
+
+        .price {
+            height: 100%;
+            text-align: left;
+            color: #e53125;
+            font-size: 32px;
+        }
+
+        .name {
+            margin: 2px 0;
+            font-size: 18px;
+            line-height: 24px;
+            color: #333;
+            text-align: left;
+            font-weight: 500;
+        }
+
+        .inventory {
+            margin-bottom: 0;
+            font-size: 14px;
+            line-height: 18px;
+            color: #999;
+            text-align: left;
+        }
+    }
+
+    .detail {
+        color: #999;
+        font-size: 16px;
+        text-align: left;
+        padding: 16px;
+        line-height: 32px;
+        margin-bottom: 100px;
+    }
+}

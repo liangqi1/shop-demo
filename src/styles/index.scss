@@ -1,0 +1,43 @@
+// @import './base.scss';
+$primary-color: #ee0a24;
+// 全局样式覆盖
+:root:root {
+    --van-primary-color: #ee0a24;
+  }
+/* 自定义通用样式 */
+.mg-t-xm {
+    margin-top: 8px;
+}
+.mg-t-sm {
+    margin-top: 16px;
+}
+
+.mg-t-md {
+    margin-top: 24px;
+}
+
+.mg-t-lg {
+    margin-top: 32px;
+}
+
+.mg-t-xlg {
+    margin-top: 40px;
+}
+
+.mg-t-xxlg {
+    margin-top: 48px;
+}
+.text-align-l {
+    text-align: left;
+}
+.text-align-c {
+    text-align: center;
+}
+.text-align-r {
+    text-align: right;
+}
+.text-ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

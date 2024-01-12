@@ -1,0 +1,106 @@
+.mine-layout {
+    padding: 32px 16px;
+
+    .mine-header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        padding-bottom: 20px;
+
+        .header-img {
+            width: 70px;
+            height: 70px;
+        }
+
+        .user-info {
+            padding-left: 16px;
+            font-size: 15px;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+    }
+
+    .order-all {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        border-radius: 8px;
+        .look-orders {
+            font-size: 11px;
+            // font-weight: 600;
+            color: #3a3a3a;
+            padding-left: 19px;
+            padding-top: 14px;
+            padding-bottom: 18px;
+        }
+
+        .order-list {
+            padding-bottom: 18px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .order-item {
+                font-size: 14px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                span {
+                    padding-top: 5px;
+                    // font-weight: 600;
+                }
+            }
+        }
+    }
+
+    .mine-content {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 0 16px;
+        margin-top: 18px;
+
+        .options-list {
+            padding-top: 20px;
+
+            .option-item {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 16px;
+                padding-bottom: 22px;
+                .right-text {
+                    font-size: 11px;
+                    // font-weight: 600;
+                    color: #888;
+                    text-decoration: underline;
+        
+                }
+                .item-info {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 15px;
+                    color: #888;
+                    .text {
+                        padding-left: 16px;
+                        font-weight: 500;
+                    }
+               
+
+                    .header-img {
+                        width: 50px;
+                        height: 50px;
+                        padding-right: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
